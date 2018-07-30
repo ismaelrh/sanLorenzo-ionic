@@ -1,11 +1,16 @@
 {
-  "name": "San Lorenzo 2016",
+  "name": "SanLorenzo2018",
   "version": "3.0.0",
   "description": "Guia de fiestas San Lorenzo 2016 en Huesca",
   "dependencies": {
     "gulp": "^3.5.6",
     "ionic-native-transitions": "^1.0.0-rc11"
   },
+  "scripts": {
+	"ionic-serve": "ionic serve"
+
+  },
+
   "devDependencies": {
     "@ionic/v1-toolkit": "^1.0.0",
     "bower": "^1.8.4",
