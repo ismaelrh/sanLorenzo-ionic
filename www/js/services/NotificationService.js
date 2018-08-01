@@ -12,7 +12,7 @@ services.service('NotificationService', ['EventService', '$state','$cordovaLocal
 
 
   var month = 7; //Es uno menos, 7 es Agosto
-  var year = 2016;
+  var year = 2018;
 
   var self = this;
 
@@ -97,10 +97,6 @@ services.service('NotificationService', ['EventService', '$state','$cordovaLocal
     var MS_PER_MINUTE = 60000;
     var finalAlarmTime = new Date(alarmTime.getTime() - adelanto * MS_PER_MINUTE);
 
-    console.log("Adelanto: " + adelanto);
-    console.log("Alaarma: " + finalAlarmTime);
-    //finalAlarmTime = new Date();
-    //finalAlarmTime.setSeconds(finalAlarmTime.getSeconds() + 3);
 
     var notificationObject = {id:data.id, at: finalAlarmTime, icon:"res://icon.png",smallIcon:"res://ic_stat_notification.png"};
 

@@ -3,14 +3,24 @@
   "version": "3.0.0",
   "description": "Guia de fiestas San Lorenzo 2016 en Huesca",
   "dependencies": {
+    "@ionic-native/header-color": "^4.11.0",
+    "com.telerik.plugins.nativepagetransitions": "git+https://github.com/Telerik-Verified-Plugins/NativePageTransitions.git#0.6.5",
+    "cordova-android": "7.0.0",
+    "cordova-android-support-gradle-release": "^1.4.4",
+    "cordova-plugin-app-event": "^1.2.1",
+    "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-inappbrowser": "^1.4.0",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-x-socialsharing": "^5.4.1",
+    "cordova-plugin-x-toast": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
+    "de.appplant.cordova.plugin.local-notification": "git+https://github.com/ismaro3/cordova-plugin-local-notifications.git",
+    "es6-promise-plugin": "^4.2.2",
     "gulp": "^3.5.6",
     "ionic-native-transitions": "^1.0.0-rc11"
   },
   "scripts": {
-	"ionic-serve": "ionic serve"
-
+    "ionic-serve": "ionic serve"
   },
-
   "devDependencies": {
     "@ionic/v1-toolkit": "^1.0.0",
     "bower": "^1.8.4",
@@ -32,5 +42,22 @@
   ],
   "cordovaPlatforms": [
     "android"
-  ]
+  ],
+  "cordova": {
+    "plugins": {
+      "de.appplant.cordova.plugin.local-notification": {},
+      "cordova-plugin-x-toast": {},
+      "com.telerik.plugins.nativepagetransitions": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-device": {},
+      "cordova-android-support-gradle-release": {
+        "ANDROID_SUPPORT_VERSION": "27.+"
+      },
+      "cordova-plugin-x-socialsharing": {},
+      "cordova-plugin-statusbar": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
 }

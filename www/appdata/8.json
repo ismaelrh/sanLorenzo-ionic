@@ -1,50 +1,57 @@
 [
-  {
-    "id": 800,
-    "title": "Campaña Cruz Blanca",
-    "day": 8,
-    "hour": "10:00 - 14:00",
-    "place_text": "Plaza Concepción Arenal",
-    "place_long": "-0.408372",
-    "place_lat": "42.135883",
-    "category": "otros",
-    "description": "Campaña de sensibilización y preventiva “La mejor fiesta es tu vida, protégete”. Organiza Fundación Cruz Blanca.",
-    "cancelled": false
-  },
-  {
-    "id": 801,
-    "title": "Súmate x Siria",
-    "day": 8,
-    "hour": "11:00 - 14:00",
-    "place_text": "Porches de Galicia",
-    "place_long": "-0.408189",
-    "place_lat": "42.137233",
-    "category": "otros",
-    "description": "San Lorenzo y Entarachén con la campaña “Súmate x Siria”. Organiza Entarachén Vols.",
-    "cancelled": false
-  },
-  {
-    "id": 802,
-    "title": "Súmate x Siria",
-    "day": 8,
-    "hour": "17:00 - 21:00",
-    "place_text": "Porches de Galicia",
-    "place_long": "-0.408189",
-    "place_lat": "42.137233",
-    "category": "otros",
-    "description": "San Lorenzo y Entarachén con la campaña “Súmate x Siria”. Organiza Entarachén Vols.",
-    "cancelled": false
-  },
-  {
-    "id": 803,
-    "title": "XVIII Gran Carrera Pedestre",
-    "day": 8,
-    "hour": "20:30",
-    "place_text": "Porches de Galicia",
-    "place_long": "-0.408189",
-    "place_lat": "42.137233",
-    "category": "otros",
-    "description": "XVIII Gran Carrera Pedestre al estilo del país. Organiza Club Atletismo Huesca.",
-    "cancelled": false
-  }
+   {
+      "id":800,
+      "day":8,
+      "title":"No hay sueños imposibles",
+      "hour":"11:00 - 14:00",
+      "place_long":"",
+      "place_lat":"",
+      "place_text":"Porches de Galicia",
+      "category":"otros",
+      "description":"San Lorenzo y Entarachén con la campaña “No hay sueños imposibles”. Organiza: Entarachén Vols."
+   },
+   {
+      "id":801,
+      "day":8,
+      "title":"No hay sueños imposibles",
+      "hour":"18:00 - 21:00",
+      "place_long":"",
+      "place_lat":"",
+      "place_text":"Porches de Galicia",
+      "category":"otros",
+      "description":"San Lorenzo y Entarachén con la campaña “No hay sueños imposibles”. Organiza: Entarachén Vols."
+   },
+   {
+      "id":802,
+      "day":8,
+      "title":"XX Gran Carrera Pedestre",
+      "hour":"20:30",
+      "place_long":"",
+      "place_lat":"",
+      "place_text":"Porches de Galicia",
+      "category":"otros",
+      "description":"XX Gran Carrera Pedestre al estilo del país. Organiza: Club Atletismo Huesca"
+   },
+   {
+      "id":803,
+      "day":8,
+      "title":"Gran Prix",
+      "hour":"22:00",
+      "place_long":"",
+      "place_lat":"",
+      "place_text":"Plaza de Toros",
+      "category":"otros",
+      "description":"Organiza: Tauroemoción, S.L."
+   },
+   {
+      "id":804,
+      "day":8,
+      "title":"La Plantación",
+      "hour":"24:00",
+      "place_long":"",
+      "place_lat":"",
+      "place_text":"Plaza de Navarra",
+      "category":"conciertos",
+      "description":"Organizan: Peñas Recreativas Oscenses."
+   }
 ]

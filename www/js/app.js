@@ -24,8 +24,9 @@ app
             //Si es Android, se colorea la barra
             if (window.StatusBar) {
                 if (ionic.Platform.isAndroid()) {
-                    StatusBar.backgroundColorByHexString('#035222');
-                    window.plugins.headerColor.tint("#035222");
+                    StatusBar.backgroundColorByHexString('#00722d');
+                    window.plugins.headerColor.tint("#00722d");
+                    //StatusBar.styleDefault();
 
                 } else {
                     StatusBar.styleLightContent();

@@ -1,6 +1,8 @@
 {
   "name": "San Lorenzo",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "browsers": [
     {
       "platform": "android",

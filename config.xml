@@ -1,47 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ismaro3.sanlorenzo15_2" version="3.1.1" android-versionCode="300104" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>San Lorenzo 2016</name>
-  <description>
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="300104" id="com.ismaro3.sanlorenzo15_2" version="3.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>San Lorenzo 2016</name>
+    <description>
        Guía de las fiestas oscenses de 2016.
     </description>
-  <author email="ismaro.394@gmail.com" href="http://sanlorenzo.ismaelrh.com">
+    <author email="ismaro.394@gmail.com" href="http://sanlorenzo.ismaelrh.com">
       ismaro3
     </author>
-  <content src="index.html"/>
-  <access origin="*"/>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="android-minSdkVersion" value="14"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <preference name="SplashScreen" value="screen"/>
-  <preference name="FadeSplashScreen" value="false"/>
-  <preference name="ShowSplashScreenSpinner" value="false"/>
-  <preference name="SplashScreenDelay" value="3000"/>
-  <preference name="Orientation" value="portrait"/>
-  <preference name="StatusBarBackgroundColor" value="#00722d"/>
-  <feature name="StatusBar">
-    <param name="ios-package" onload="true" value="CDVStatusBar"/>
-  </feature>
-  <platform name="android">
-    <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
-    <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
-    <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
-    <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
-    <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
-    <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
-    <splash src="resources/android/splash/drawable-port-ldpi-screen.png" density="port-ldpi"/>
-    <splash src="resources/android/splash/drawable-port-mdpi-screen.png" density="port-mdpi"/>
-    <splash src="resources/android/splash/drawable-port-hdpi-screen.png" density="port-hdpi"/>
-    <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
-    <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
-    <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
-  </platform>
-  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
-  <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/ismaro3/cordova-plugin-local-notifications"/>
-  <plugin name="cordova-plugin-x-toast" spec="https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git"/>
-  <plugin name="com.telerik.plugins.nativepagetransitions" spec="https://github.com/Telerik-Verified-Plugins/NativePageTransitions#0.6.5"/>
-  <plugin name="cordova-plugin-inappbrowser" spec="~1.4.0"/>
-  <plugin name="cordova-plugin-headercolor" spec="https://github.com/tomloprod/cordova-plugin-headercolor"/>
-  <plugin name="cordova-plugin-device" spec="~1.1.2"/>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="Orientation" value="portrait" />
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>
+    <platform name="android">
+        <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
+        <splash density="port-ldpi" src="resources/android/splash/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="resources/android/splash/drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="resources/android/splash/drawable-port-hdpi-screen.png" />
+        <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+    </platform>
+    <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+    <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/ismaro3/cordova-plugin-local-notifications" />
+    <plugin name="cordova-plugin-x-toast" spec="https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git" />
+    <plugin name="com.telerik.plugins.nativepagetransitions" spec="https://github.com/Telerik-Verified-Plugins/NativePageTransitions#0.6.5" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.4.0" />
+    <plugin name="cordova-plugin-device" spec="~1.1.2" />
+    <plugin name="cordova-android-support-gradle-release" spec="^1.4.4">
+        <variable name="ANDROID_SUPPORT_VERSION" value="27.+" />
+    </plugin>
+    <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.1" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <engine name="android" spec="7.0.0" />
 </widget>
