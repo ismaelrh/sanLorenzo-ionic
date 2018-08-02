@@ -29,5 +29,10 @@ controllers.controller('AboutCtrl', ["$scope",function ($scope) {
         window.open("https://github.com/ismaro3/sanLorenzo-ionic", "_system");
     };
 
+    $scope.datumize = function (phone) {
+
+        window.open("https://www.datumize.com", "_system");
+    };
+
 
 }]);

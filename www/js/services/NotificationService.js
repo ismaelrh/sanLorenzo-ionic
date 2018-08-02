@@ -97,8 +97,7 @@ services.service('NotificationService', ['EventService', '$state','$cordovaLocal
     var MS_PER_MINUTE = 60000;
     var finalAlarmTime = new Date(alarmTime.getTime() - adelanto * MS_PER_MINUTE);
 
-
-    var notificationObject = {id:data.id, at: finalAlarmTime, icon:"res://icon.png",smallIcon:"res://ic_stat_notification.png"};
+    var notificationObject = {id:data.id, trigger: {at: finalAlarmTime}, icon:"res://icon.png",smallIcon:"res://ic_stat_notification.png"};
 
     var version = parseFloat(ionic.Platform.version());
 
@@ -111,7 +110,7 @@ services.service('NotificationService', ['EventService', '$state','$cordovaLocal
       notificationObject.text =  event["title"];
     }
     //Se programa la notificacion
-    $cordovaLocalNotification.schedule(notificationObject);
+    cordova.plugins.notification.local.schedule(notificationObject);
 
 
     //Llamado al clickar en una notificacion, abre la pantalla de detalle

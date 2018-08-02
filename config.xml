@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget android-versionCode="300104" id="com.ismaro3.sanlorenzo15_2" version="3.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>San Lorenzo 2016</name>
+    <name>San Lorenzo 2018</name>
     <description>
-       Guía de las fiestas oscenses de 2016.
+       Guía de las fiestas oscenses de 2018.
     </description>
     <author email="ismaro.394@gmail.com" href="http://sanlorenzo.ismaelrh.com">
       ismaro3
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-navigation href="*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
@@ -37,7 +38,6 @@
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
     <icon src="resources/android/icon/drawable-xhdpi-icon.png" />
-    <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/ismaro3/cordova-plugin-local-notifications" />
     <plugin name="cordova-plugin-x-toast" spec="https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git" />
     <plugin name="com.telerik.plugins.nativepagetransitions" spec="https://github.com/Telerik-Verified-Plugins/NativePageTransitions#0.6.5" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.4.0" />
@@ -47,5 +47,9 @@
     </plugin>
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.1" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-local-notification" spec="^0.9.0-beta.2" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <engine name="android" spec="7.0.0" />
 </widget>

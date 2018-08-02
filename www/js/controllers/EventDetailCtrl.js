@@ -96,7 +96,7 @@ controllers.controller('EventDetailCtrl', ["$scope","$stateParams","$compile","E
             }
 
 
-            var alarmTime = new Date(2016, 7, day, hour, minute, 0, 0);
+            var alarmTime = new Date(2018, 7, day, hour, minute, 0, 0);
             var now = new Date();
             return alarmTime.getTime() <= now.getTime();
 
@@ -240,7 +240,7 @@ controllers.controller('EventDetailCtrl', ["$scope","$stateParams","$compile","E
 
         $scope.share = function(){
           $cordovaSocialSharing.share("🎉 " + $scope.event.title + ".\n🕗 Día " + $scope.event.day + " a las " + $scope.event.hour + ".\n📍 " + $scope.event.place_text
-          + ".\n\nDescárgate la App de San Lorenzo 2016 en http://bit.ly/2agzaQF",$scope.event.title);
+          + ".\n\nDescárgate la App de San Lorenzo 2018 en http://bit.ly/2agzaQF",$scope.event.title);
         }
 
     }]);

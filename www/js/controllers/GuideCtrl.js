@@ -11,6 +11,10 @@ controllers.controller('GuideCtrl', ["$scope", "$stateParams", "$state", "$http"
     function ($scope, $stateParams, $state, $http, EventService,UpdateService) {
 
 
+    UpdateService.initializeData()
+          .then(function(){
+            UpdateService.update();
+          });
     $scope.lastUpdated = UpdateService.lastUpdated;
 
         $scope.filtro = ""; //Filtro de busqueda

@@ -43,7 +43,7 @@ services.service('UpdateService', ['$http', '$q','EventService','$localstorage',
           list: []
       });
 
-      //console.log("Initializing data... copying from local storage");
+      console.log("Initializing data... copying from local storage");
       return updateFromLocalFiles()
       .then(function(response){
         $localstorage.set('initialized',true);
@@ -94,7 +94,7 @@ services.service('UpdateService', ['$http', '$q','EventService','$localstorage',
       var serverVersion = response.data.version;
       //Si la del servidor es mayor -> se actualiza
       if(serverVersion>currentVersion){
-      //  console.log("UPDATING. Current version: " + currentVersion + ", server version: " + serverVersion);
+        console.log("UPDATING. Current version: " + currentVersion + ", server version: " + serverVersion);
 
         //3.- Se obtienen ficheros nuevos
         return getNewFilesFromServer()
