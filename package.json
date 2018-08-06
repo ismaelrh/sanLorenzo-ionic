@@ -1,6 +1,6 @@
 {
   "name": "SanLorenzo2018",
-  "version": "3.0.0",
+  "version": "3.1.5",
   "description": "Guia de fiestas San Lorenzo 2016 en Huesca",
   "dependencies": {
     "@ionic-native/header-color": "^4.11.0",
